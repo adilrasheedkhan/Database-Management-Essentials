@@ -1,5 +1,7 @@
---Using Oracle SQL Developer----
---1- List the city, state, and zip codes in the customer table. Your result should not have duplicates.
+--------------------Using Oracle SQL Developer-----------------
+
+
+---1- List the city, state, and zip codes in the customer table. Your result should not have duplicates.
 
 select distinct c.city, c.state, c.zip from CUSTOMER c;
 
